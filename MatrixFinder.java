@@ -14,6 +14,24 @@ Start from the top right corner of the matrix. Have 3 variables that each store 
 */
 
 public class MatrixFinder {
+
+    public static int[][] _arr;
+    
+    public MatrixFinder(int n) {
+	int c = 0;
+	_arr = new int[n][n];
+	for(int i = 0; i < n; i++){
+	    for(int j = 0; j < n; j++){
+		_arr[i][j] = c;
+		c++;
+	    }
+	}
+	
+    }
+
+    public static String find ( int targ ) {
+	return find( _arr, targ );
+    }
     
     public static String find(int[][] array, int target){
         int r = 0;
