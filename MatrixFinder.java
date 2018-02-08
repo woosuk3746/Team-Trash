@@ -18,7 +18,7 @@ public class MatrixFinder {
     public static int[][] _arr;
     
     public MatrixFinder(int n) {
-	int c = 0;
+	int c = 1;
 	_arr = new int[n][n];
 	for(int i = 0; i < n; i++){
 	    for(int j = 0; j < n; j++){
