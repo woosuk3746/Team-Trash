@@ -16,8 +16,10 @@ To perform this lab, we made a forloop that will iterate as the value of n incre
 The results was rather astonishing. Rather than showing a linear graph, the runtime was showing an "up-and-down" pattern. The overall trend, however, was increasing.
 
 Graph for the 5 Trials:
+
 ![](trials.png)
 
 Graph for the Avg of the trials:
+
 ![](avg.png)
 
