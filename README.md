@@ -1,7 +1,12 @@
 # Team-Trash
-## Matrix Search Algorithm
 Woosuk Lee, Ryan Kim, Adrian Kloskowski
 APCS Pd. 8
+
+## Matrix Search Algorithm
+1. Start from the upper right corner of the 2D matrix.
+2. If the target number is greater than the current position, move down the column.
+3. If the target number is less than the current position, move left the row.
+4. If the target number is the same, end the program.
 
 # Hypothesis
 Our original hypothesis for this lab was that the MatrixFinder algorithm will run in linear time.
@@ -13,7 +18,7 @@ Initially, team251 (aka the Coffee Converters) was on a mission to find a search
 To perform this lab, we made a forloop that will iterate as the value of n increments by 100 up to a certain value (~100 iterations). At the top of the loop, we saved the currentTimeMillis() in a variable, and after performing the algorithm, we saved currentTimeMillis() in another variable and saved the difference of those two variables in another variable (which we printed out).
 
 # Results
-The results was rather astonishing. Rather than showing a linear graph, the runtime was showing an "up-and-down" pattern. The overall trend, however, was increasing.
+The results was rather astonishing. Rather than showing a linear graph, the runtime was showing an "up-and-down" pattern. The overall trend, however, was increasing. Moreover, there were some peculiar and random peaks in some of trials which contributed to the up-and-down pattern.
 
 Graph for the 5 Trials:
 
@@ -23,3 +28,5 @@ Graph for the Avg of the trials:
 
 ![](avg.png)
 
+# Conclusion
+Although the general data does not show an exact linear graph and there were a lot of "ups and downs", the overall trend seems show a linear pattern. We believe that there 
