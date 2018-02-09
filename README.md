@@ -29,4 +29,4 @@ Graph for the Avg of the trials:
 ![](avg.png)
 
 # Conclusion
-Although the general data does not show an exact linear graph and there were a lot of "ups and downs", the overall trend seems show a linear pattern. We believe that there 
+The general data does not show an exact linear graph and there were a lot of "ups and downs". We believe that there would have been some factors within the hardware of the actual machine that could have contribute to these variables. However, the overall trend seems show a linear pattern. Therefore, our hypothesis is correct and the code runs in linear time O(n).
